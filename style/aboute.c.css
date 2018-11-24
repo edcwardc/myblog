@@ -1,0 +1,94 @@
+#global {
+    width: 100%;
+    height: 100%;
+    margin: -8px;
+    font-family: LucidaGrande;
+}
+
+#navigation_bar {
+    display: flex;
+}
+
+#right {
+    display: flex;
+    margin-left: 400px;
+}
+
+#logo {
+    margin: 70px;
+}
+
+.menu-item {
+    font-size: 20px;
+    font-family: LucidaGrande;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.menu-item.active {
+    text-decoration: line-through black;
+}
+
+#img {
+    display: inline-block;
+    height: 59vh;
+    width: 1306px;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#message {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown {
+    font-size: 20px;
+    font-family: LucidaGrande;
+    font-weight: bold;
+    margin: 50px;
+    flex: 400px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dropdown_menu {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: LucidaGrande;
+    font-weight: bold;
+    margin: 20px;
+    color: rgba(0, 9, 17, 0.65);
+}
+
+li {
+    padding: 5px;
+}
+
+.dropdown.active span {
+    text-decoration: line-through black;
+}
+
+.dropdown span {
+    display: block;
+    text-align: center;
+}
+
+.dropdown.active .dropdown_menu {
+    display: block;
+}
+
+.dropdown .dropdown_menu {
+    display: none;
+}
+
+.a-style {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
